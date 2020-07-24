@@ -34,6 +34,7 @@ font-family: 'Roboto', sans-serif;
     --icons-color: #AFB1B8;
     --h-color: #212121;
     --p-color: #757575;
+    --
 }
 
 html {
@@ -332,7 +333,7 @@ a {
     margin-right: 30px;
 }
 
-.team-list .card-social-link {
+.team-list .card-social-list {
     padding-bottom: 24px;
 }
 
@@ -371,17 +372,25 @@ a {
   
 }
 
-.card-social-list li {
+.card-social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     min-height: 44px;
+    border-radius: 50%;
+}
 
+.icon-svg {
+    fill: var(--icons-color);
 }
 
 .card-social-list-link:hover .icon-svg {
-    fill: blue;
+    fill: #ffffff;
+}
+
+.card-social-list-link:hover {
+    background-color: var(--accent-color);
 }
 
 
