@@ -222,10 +222,10 @@ a {
 
 
 /* hero-section */
-
-.hero-content {
-    padding-top: 200px;
-    padding-bottom: 200px;
+.hero-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.8),
         rgba(47, 48, 58, 0.8)),
@@ -233,6 +233,16 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    max-width: 1600px;
+}
+
+.hero-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 696px;
 }
 
 .hero-title {
@@ -247,7 +257,6 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    width: 696px;
 }
 
 .hero-button {
